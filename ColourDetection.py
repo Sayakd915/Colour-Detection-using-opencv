@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Loading the image
-image = cv2.imread('C:/Users/SAYAK DAS/OneDrive/Desktop/Code/opencv/image.jpg')
+image = cv2.imread('image.jpg')
 
 # Converting the image to HSV color space
 hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
